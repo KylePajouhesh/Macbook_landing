@@ -1,12 +1,13 @@
 import NavBar from "./components/NavBar.jsx";
 import Hero from "./components/Hero.jsx";
-import {navLinks} from "./constants/index.js";
+import ProductViewer from "./components/ProductViewer.jsx";
 
 const App = () => {
     return (
         <main>
             <NavBar />
             <Hero />
+            <ProductViewer />
         </main>
     )
 }
